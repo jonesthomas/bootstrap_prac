@@ -10,8 +10,10 @@
     <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
 </head>
 <body>
-
+    <%= render 'layouts/menu' %>
+    <%= render 'layouts/header' %>
 <%= yield %>
-
+    <script src="//code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

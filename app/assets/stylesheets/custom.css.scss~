@@ -1,6 +1,6 @@
 .jumbotron{
 	/*adding here*/
-	background-image: url("space_header.jpg");
+	background-image: url("images/space_header.jpg");
 	background-size: cover;
 	background-repeat:no-repeat;
 	/*end */
@@ -11,29 +11,5 @@ footer {
   border-top: 1px solid #eaeaea;
   color: #999;
 }
-.jones-jumbotron {
-	background-image: url("space_header.jpg");
-	background-size: cover;
-	background-repeat:no-repeat;
-  padding: 30px;
-  margin-bottom: 30px;
-  font-size: 21px;
-  font-weight: 200;
-  line-height: 2.1428571435;
-  color: inherit;
-  background-color: #eeeeee;
-}
 
-.jones-jumbotron h1 {
-  line-height: 1;
-  color: inherit;
-}
-
-.jones-jumbotron p {
-  line-height: 1.4;
-}
-
-.container .jones-jumbotron {
-  border-radius: 6px;
-}
 

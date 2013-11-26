@@ -4917,11 +4917,6 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-	/*adding here*/
-	background-image: url("space_header.jpg");
-	background-size: cover;
-	background-repeat:no-repeat;
-	/*end */
   padding: 30px;
   margin-bottom: 30px;
   font-size: 21px;
@@ -4944,7 +4939,7 @@ a.list-group-item.active > .badge,
   border-radius: 6px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {/*jones was 768px*/
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;

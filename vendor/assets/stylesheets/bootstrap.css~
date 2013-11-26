@@ -4917,11 +4917,6 @@ a.list-group-item.active > .badge,
 }
 
 .jumbotron {
-	/*adding here*/
-	background-image: url("space_header.jpg");
-	background-size: cover;
-	background-repeat:no-repeat;
-	/*end */
   padding: 30px;
   margin-bottom: 30px;
   font-size: 21px;
@@ -4954,7 +4949,7 @@ a.list-group-item.active > .badge,
     padding-left: 60px;
   }
   .jumbotron h1 {
-    font-size: 63px;
+    /*font-size: 63px;*/
   }
 }
 

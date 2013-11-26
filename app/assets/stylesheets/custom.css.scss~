@@ -1,9 +1,24 @@
+@import "bootstrap";
 .jumbotron{
 	/*adding here*/
 	background-image: url("space_header.jpg");
 	background-size: cover;
 	background-repeat:no-repeat;
 	/*end */
+}
+
+@media screen and (min-width: 1200px) {
+  .jumbotron {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .jumbotron {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .jumbotron h1 {
+    font-size: 63px;
+  }
 }
 
 

@@ -4939,7 +4939,7 @@ a.list-group-item.active > .badge,
   border-radius: 6px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) {/*jones was 768px*/
   .jumbotron {
     padding-top: 48px;
     padding-bottom: 48px;
@@ -4949,7 +4949,7 @@ a.list-group-item.active > .badge,
     padding-left: 60px;
   }
   .jumbotron h1 {
-    /*font-size: 63px;*/
+    font-size: 63px;
   }
 }
 
